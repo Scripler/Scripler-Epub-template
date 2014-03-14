@@ -191,12 +191,12 @@ blockquote {
 	font-style:italic;
 	font-weight:600;
 	font-size:1.2em;
-	display:block;
+	line-height:1.42;
 /*Border-shorthand is WIDTH STYLE COLOR*/
 	border:3px solid #0000ff;
-	border-color:;
-	padding:0.5em;
-	margin:1em 4em 1em 4em;
+	padding:0.2em .5em;
+/*Margin-left and right is defined in %, as it then becomes relative to width, which is important for responsive design to e.g. mobile phones.*/
+	margin:1em 10%;
 }
 
 .caption {
