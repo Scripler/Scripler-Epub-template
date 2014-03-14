@@ -1,6 +1,6 @@
+/*CSS reset - resets some default properties*/
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-/*CSS reset - resets default attributes*/
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, 
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -24,12 +24,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
+
 blockquote, q {
 	quotes: none;
 }
@@ -44,7 +39,6 @@ table {
 }
 
 /*font-family should always be named with the full name of the font, to avoid confusion.*/
-
 @font-face {
 	font-family:"Source Sans Pro";
 	font-style:normal;
@@ -76,41 +70,42 @@ table {
 @font-face {
 	font-family: "Source Sans Pro";
 	font-style:normal;
-	font-weight:bold;
+	font-weight:700;
 	src : url("../Fonts/sourcesansprobold.otf");
 }
 
 @font-face {
 	font-family: "Source Sans Pro";
 	font-style:italic;
-	font-weight:bold;
+	font-weight:700;
 	src : url("../Fonts/sourcesansprobolditalic.otf");
 }
 
 @font-face {
 	font-family: "Source Sans Pro";
 	font-style:normal;
-	font-weight:semibold;
+	font-weight:600;
 	src : url("../Fonts/sourcesansprosemibold.otf");
 }
 
 @font-face {
 	font-family: "Source Sans Pro";
 	font-style:italic;
-	font-weight:semibold;
+	font-weight:600;
 	src : url("../Fonts/sourcesansprosemibolditalic.otf");
 }
 
 @font-face {
 	font-family: "Source Code Pro";
 	font-style:normal;
-	font-weight:bold;
+	font-weight:700;
 	src : url("../Fonts/sourcecodeprobold.otf");
 }
 
 body {
 /*Margin is added to avoid text being directly on the edge of ebook-readers taking css seriously (which is increasingly few - I'm looking at you apple). But just a litte, to preserve screen estate in most usage scenarios.*/
 	margin:0.5em;
+	color:black;
 }
 
 h1 {
@@ -118,6 +113,8 @@ h1 {
 	font-style:normal;
 	font-weight:900;
 	font-size:4em;
+/*Line height is calculated based on this Golden Ratio Typography Calculator: www.pearsonified.com/typography/ - using a estimated width of 600px and a baseline where 1em = 16px. This is then re-calculated to unit-less line-height.*/
+	line-height:1.33;
 	color:#0000ff;
 	margin:1em 0em 0.5em 0em;
 }
@@ -127,8 +124,9 @@ h2 {
 	font-style:normal;
 	font-weight:900;
 	font-size:2em;
+	line-height:1.38;
 	margin:1em 0em 0.5em 0em;
-	padding:0em;
+
 }
 
 h3 {
@@ -136,15 +134,16 @@ h3 {
 	font-style:normal;
 	font-weight:900;
 	font-size:1.6em;
+	line-height:1.44;
 	margin:1em 0em 0.5em 0em;
-	padding:0em;
 }
 
 h4 {
 	font-family: "Source Sans Pro", arial, sans-serif;
 	font-style:normal;
-	font-weight:bold;
+	font-weight:700;
 	font-size:1.4em;
+	line-height:1.45;
 	margin:1em 0em 0.5em 0em;
 	padding:0em;
 }
@@ -152,8 +151,9 @@ h4 {
 h5 {
 	font-family: "Source Sans Pro", arial, sans-serif;
 	font-style:normal;
-	font-weight:bold;
+	font-weight:700;
 	font-size:1.2em;
+	line-height:1.53;
 	margin:1em 0em 0.5em 0em;
 	padding:0em;
 }
@@ -162,49 +162,41 @@ p {
 	font-family: "Source Sans Pro", arial, sans-serif;
 	font-style:normal;
 	font-weight:400;
+	line-height: 1.56;
 	
 }
 
-p+p {
-	text-indent: 2.5em
+p + p {
+	text-indent: 1.5em
 }
 
-.bold{
-	font-weight: bold;
+ol {
+	list-style:decimal;
+}
+
+ul {
+	list-style:disc;
 }
 
 strong {
-	font-weight: bold;
+	font-weight: 700;
 }
 
 em {
 	font-style: italic;
 }
 
-.italic {
-	font-style: italic;
-}
-
-.speech {
-	font-family: serif;
-	font-style:italic;
-	font-weight:none;
-	font-size:1em;
-}
-
 blockquote {
 	font-family: "Source Sans Pro", arial, sans-serif;
 	font-style:italic;
-	font-weight:semibold;
+	font-weight:600;
 	font-size:1.2em;
 	display:block;
-	border-style:solid;
-	border-color:#0000ff;
+/*Border-shorthand is WIDTH STYLE COLOR*/
+	border:3px solid #0000ff;
+	border-color:;
 	padding:0.5em;
-	margin-top:1em;
-	margin-bottom:1em;
-	margin-left:4em;
-	margin-right:4em;
+	margin:1em 4em 1em 4em;
 }
 
 .caption {
@@ -219,7 +211,7 @@ blockquote {
 code {
 	font-family: "Source Code Pro";
 	font-style:normal;
-	font-weight:bold;
+	font-weight:700;
 	font-size:1em;
 	background-color:#000000;
 	color:#ffffff;
@@ -252,7 +244,7 @@ table {
 table th {
 	font-family: "Source Sans Pro", arial, sans-serif;
 	font-style:normal;
-	font-weight:bold;
+	font-weight:700;
 	font-size:1em;
 	color:#ffffff;
 	border-width: 3px;
