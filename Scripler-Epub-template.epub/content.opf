@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:identifier id="BookId" opf:scheme="UUID">urn:uuid:8628fce0-de33-42f9-8ca9-2aea205a40ec</dc:identifier>
+    <dc:date opf:event="modification">2014-03-11</dc:date>
+    <meta content="0.7.4" name="Sigil version" />
+  </metadata>
+  <manifest>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+    <item href="Text/Section0001.xhtml" id="Section0001.xhtml" media-type="application/xhtml+xml" />
+    <item href="Styles/template.css" id="template.css" media-type="text/css" />
+    <item href="Fonts/sourcesansprosemibolditalic.otf" id="sourcesansprosemibolditalic.otf" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/sourcesansprosemibold.otf" id="sourcesansprosemibold.otf" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/sourcesansproregular.otf" id="sourcesansproregular.otf" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/sourcesansprolightitalic.otf" id="sourcesansprolightitalic.otf" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/sourcesansprolight.otf" id="sourcesansprolight.otf" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/sourcesansproitalic.otf" id="sourcesansproitalic.otf" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/sourcesansproextralightitalic.otf" id="sourcesansproextralightitalic.otf" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/sourcesansproextralight.otf" id="sourcesansproextralight.otf" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/sourcesansprobolditalic.otf" id="sourcesansprobolditalic.otf" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/sourcesansprobold.otf" id="sourcesansprobold.otf" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/sourcesansproblackitalic.otf" id="sourcesansproblackitalic.otf" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/sourcesansproblack.otf" id="sourcesansproblack.otf" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/sourcecodeprosemibold.otf" id="sourcecodeprosemibold.otf" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/sourcecodeproregular.otf" id="sourcecodeproregular.otf" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/sourcecodeprolight.otf" id="sourcecodeprolight.otf" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/sourcecodeproextralight.otf" id="sourcecodeproextralight.otf" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/sourcecodeprobold.otf" id="sourcecodeprobold.otf" media-type="application/vnd.ms-opentype" />
+    <item href="Fonts/sourcecodeproblack.otf" id="sourcecodeproblack.otf" media-type="application/vnd.ms-opentype" />
+    <item href="Misc/desktop.ini" id="desktop.ini" media-type="text/plain" />
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="Section0001.xhtml" />
+  </spine>
+  <guide />
+</package>
