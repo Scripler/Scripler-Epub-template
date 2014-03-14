@@ -2,7 +2,7 @@
 <package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId" version="2.0">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
     <dc:identifier id="BookId" opf:scheme="UUID">urn:uuid:8628fce0-de33-42f9-8ca9-2aea205a40ec</dc:identifier>
-    <dc:date opf:event="modification">2014-03-11</dc:date>
+    <dc:date opf:event="modification">2014-03-14</dc:date>
     <meta content="0.7.4" name="Sigil version" />
   </metadata>
   <manifest>
