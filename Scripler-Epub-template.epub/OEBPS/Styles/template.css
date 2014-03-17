@@ -202,16 +202,6 @@ blockquote {
 }
 
 
-/* This is identical to <figcaption>, kept here if we need to the caption with epub2-compliant html*/
-/*.caption {
-	font-family: "Source Sans Pro", arial, sans-serif;
-	font-style:italic;
-	font-weight:400;
-	font-size:0.9em;
-	line-height:1.64;
-	margin:.3em 0em 0em 0em;
-}*/
-
 code {
 	font-family: "Source Code Pro", monospace;
 	font-style:normal;
@@ -228,6 +218,11 @@ figure {
 	margin: 1em 0em;
 }
 
+/*Epub2-fallback css*/
+/*div.figure {
+	margin: 1em 0em;
+}*/
+
 img {
 	width: 100%;
 	height: auto;
@@ -241,6 +236,17 @@ figcaption {
 	line-height:1.64;
 	margin:.3em 0em 0em 0em;
 }
+
+/*Epub2-fallback css*/
+/*p.figcaption {
+	font-family: "Source Sans Pro", arial, sans-serif;
+	font-style:italic;
+	font-weight:400;
+	font-size:.9em;
+	line-height:1.64;
+	margin:.3em 0em 0em 0em;
+}*/
+
 
 figure + figcaption {
 	page-inside-avoid;
