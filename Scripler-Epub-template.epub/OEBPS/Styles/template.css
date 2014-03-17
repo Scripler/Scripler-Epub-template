@@ -116,7 +116,7 @@ h1 {
 /*Line height is calculated based on this Golden Ratio Typography Calculator: www.pearsonified.com/typography/ - using a estimated width of 600px and a baseline where 1em = 16px. This is then re-calculated to unit-less line-height.*/
 	line-height:1.33;
 	color:#0000ff;
-	margin:1em 0em 0.5em 0em;
+	margin:1.5em 0em 0em 0em;
 }
 
 h2 {
@@ -125,7 +125,7 @@ h2 {
 	font-weight:900;
 	font-size:2em;
 	line-height:1.38;
-	margin:1em 0em 0.5em 0em;
+	margin:1.5em 0em 0em 0em;
 
 }
 
@@ -135,7 +135,7 @@ h3 {
 	font-weight:900;
 	font-size:1.6em;
 	line-height:1.44;
-	margin:1em 0em 0.5em 0em;
+	margin:1.5em 0em 0em 0em;
 }
 
 h4 {
@@ -144,8 +144,7 @@ h4 {
 	font-weight:700;
 	font-size:1.4em;
 	line-height:1.45;
-	margin:1em 0em 0.5em 0em;
-	padding:0em;
+	margin:1.5em 0em 0em 0em;
 }
 
 h5 {
@@ -154,8 +153,7 @@ h5 {
 	font-weight:700;
 	font-size:1.2em;
 	line-height:1.53;
-	margin:1em 0em 0.5em 0em;
-	padding:0em;
+	margin:1.5em 0em 0em 0em;
 }
 
 p {
@@ -164,11 +162,13 @@ p {
 	font-weight:400;
 	font-size:1em;
 	line-height: 1.56;
+	margin: 1.5em 0em 0em 0em;
 	
 }
 
 p + p {
-	text-indent: 1.5em
+	text-indent: 1.5em;
+	margin: 0em 0em 0em 0em;
 }
 
 ol {
@@ -197,17 +197,10 @@ blockquote {
 	border:3px solid #0000ff;
 	padding:0.2em .5em;
 /*Margin-left and right is defined in %, as it then becomes relative to width, which is important for responsive design to e.g. mobile phones.*/
-	margin:1em 10%;
+/*Here margin-top is defined as 1.2em instead of 1.5em - it is an approximation of <p> 1em (or rem)*/
+	margin:1.2em 10% 0em 10%;
 }
 
-figcaption {
-	font-family: "Source Sans Pro", arial, sans-serif;
-	font-style:italic;
-	font-weight:400;
-	font-size:.9em;
-	line-height:1.64;
-	margin:.3em 0em 0em 0em;
-}
 
 /* This is identical to <figcaption>, kept here if we need to the caption with epub2-compliant html*/
 /*.caption {
@@ -220,20 +213,37 @@ figcaption {
 }*/
 
 code {
-	font-family: "Source Code Pro";
+	font-family: "Source Code Pro", monospace;
 	font-style:normal;
 	font-weight:700;
 	font-size:1em;
 	background-color:#000000;
 	color:#ffffff;
 	display:block;
-	margin:1em 10%;
+	margin:1.2em 10% 0em 10%;
 	padding:1em;
+}
+
+figure {
+	margin: 1em 0em;
 }
 
 img {
 	width: 100%;
-	margin:1em 0em 0em 0em;
+	height: auto;
+}
+
+figcaption {
+	font-family: "Source Sans Pro", arial, sans-serif;
+	font-style:italic;
+	font-weight:400;
+	font-size:.9em;
+	line-height:1.64;
+	margin:.3em 0em 0em 0em;
+}
+
+figure + figcaption {
+	page-inside-avoid;
 }
 
 /*Table*/
