@@ -2,7 +2,7 @@
 <package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId" version="2.0">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
     <dc:identifier id="BookId" opf:scheme="UUID">urn:uuid:8628fce0-de33-42f9-8ca9-2aea205a40ec</dc:identifier>
-    <dc:date opf:event="modification">2014-03-14</dc:date>
+    <dc:date opf:event="modification">2014-03-17</dc:date>
     <meta content="0.7.4" name="Sigil version" />
   </metadata>
   <manifest>
@@ -28,6 +28,10 @@
     <item href="Fonts/sourcecodeprobold.otf" id="sourcecodeprobold.otf" media-type="application/vnd.ms-opentype" />
     <item href="Fonts/sourcecodeproblack.otf" id="sourcecodeproblack.otf" media-type="application/vnd.ms-opentype" />
     <item href="Misc/desktop.ini" id="desktop.ini" media-type="text/plain" />
+    <item href="Images/billede.png" id="billede.png" media-type="image/png" />
+    <item href="Images/builtwithscripler.svg" id="builtwithscripler.svg" media-type="image/svg+xml" />
+    <item href="Images/cover.jpg" id="cover.jpg" media-type="image/jpeg" />
+    <item href="Images/3_2.jpg" id="x3_2.jpg" media-type="image/jpeg" />
   </manifest>
   <spine toc="ncx">
     <itemref idref="Section0001.xhtml" />
