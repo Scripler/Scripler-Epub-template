@@ -2,12 +2,15 @@
 <package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId" version="2.0">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
     <dc:identifier id="BookId" opf:scheme="UUID">urn:uuid:8628fce0-de33-42f9-8ca9-2aea205a40ec</dc:identifier>
+    <dc:title>Book of Scripler</dc:title>
+    <dc:creator opf:role="aut">Scripler Team</dc:creator>
+    <dc:language>en</dc:language>
     <dc:date opf:event="modification">2014-03-17</dc:date>
     <meta content="0.7.4" name="Sigil version" />
   </metadata>
   <manifest>
     <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
-    <item href="Text/Section0001.xhtml" id="Section0001.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Chapter.html" id="Chapter.html" media-type="application/xhtml+xml" />
     <item href="Styles/template.css" id="template.css" media-type="text/css" />
     <item href="Fonts/sourcesansprosemibolditalic.otf" id="sourcesansprosemibolditalic.otf" media-type="application/vnd.ms-opentype" />
     <item href="Fonts/sourcesansprosemibold.otf" id="sourcesansprosemibold.otf" media-type="application/vnd.ms-opentype" />
@@ -32,9 +35,13 @@
     <item href="Images/builtwithscripler.svg" id="builtwithscripler.svg" media-type="image/svg+xml" />
     <item href="Images/cover.jpg" id="cover.jpg" media-type="image/jpeg" />
     <item href="Images/3_2.jpg" id="x3_2.jpg" media-type="image/jpeg" />
+    <item href="Text/TOC.html" id="TOC.html" media-type="application/xhtml+xml" />
+    <item href="Text/Titlepage.html" id="Titlepage.html" media-type="application/xhtml+xml" />
   </manifest>
   <spine toc="ncx">
-    <itemref idref="Section0001.xhtml" />
+    <itemref idref="TOC.html" />
+    <itemref idref="Chapter.html" />
+    <itemref idref="Titlepage.html" />
   </spine>
   <guide />
 </package>
