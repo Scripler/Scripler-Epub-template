@@ -248,46 +248,47 @@ figcaption {
 }*/
 
 
-figure + figcaption {
+figure figcaption {
 	page-inside-avoid;
 }
+
+/*Epub2-fallback css*/
+/*div.figure p.figcaption {
+	page-inside-avoid;
+}*/
+
 
 /*Table*/
 
 table {
-	display:block;
+	table-layout: auto;
 	border-collapse: collapse;
+	margin:1.5em auto 0em auto;
 	padding:0.5em;
-	margin-top:1em;
-	margin-bottom:1em;
-	margin-left:4em;
-	margin-right:4em;
 }
 
-table th {
+th {
 	font-family: "Source Sans Pro", arial, sans-serif;
 	font-style:normal;
 	font-weight:700;
 	font-size:1em;
+	line-height: 1.56;
 	color:#ffffff;
-	border-width: 3px;
-	padding: 8px;
-	border-style: solid;
-	border-color: #0000ff;
 	background-color: #0000ff;
+	border: 3px solid #0000ff;
+	padding: .5em;
 }
 
-table td {
+td {
 	font-family: "Source Sans Pro", arial, sans-serif;
 	font-style:normal;
 	font-weight:400;
 	font-size:1em;
+	line-height: 1.56;
 	color:#000000;
-	border-width: 3px;
-	padding: 8px;
-	border-style: solid;
-	border-color: #0000ff;
 	background-color: #ffffff;
+	border: 3px solid #0000ff;
+	padding: .5em;
 }
 
 /*TOC*/
