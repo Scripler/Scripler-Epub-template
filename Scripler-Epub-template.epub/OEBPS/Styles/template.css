@@ -227,7 +227,7 @@ div.code p {
 }
 
 figure {
-	margin: 1em 0em;
+	margin: 1.5em 0 0 0;
 }
 
 /*Epub2-fallback css*/
@@ -261,7 +261,7 @@ figcaption {
 
 
 figure figcaption {
-	page-inside-avoid;
+	page-break-inside-avoid;
 }
 
 /*Epub2-fallback css*/
@@ -275,7 +275,7 @@ figure figcaption {
 table {
 	table-layout: auto;
 	border-collapse: collapse;
-	margin:1.5em auto 0em auto;
+	margin:0 auto 0 auto;
 	padding:0.5em;
 }
 
