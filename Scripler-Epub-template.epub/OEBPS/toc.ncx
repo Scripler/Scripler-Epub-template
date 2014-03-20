@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
  "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
 <ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
   <head>
-    <meta name="dtb:uid" content="urn:uuid:8628fce0-de33-42f9-8ca9-2aea205a40ec" />
-    <meta name="dtb:depth" content="5" />
-    <meta name="dtb:totalPageCount" content="0" />
-    <meta name="dtb:maxPageNumber" content="0" />
+    <meta content="urn:uuid:8628fce0-de33-42f9-8ca9-2aea205a40ec" name="dtb:uid"/>
+    <meta content="5" name="dtb:depth"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
   </head>
   <docTitle>
     <text>Unknown</text>
@@ -16,33 +16,33 @@
       <navLabel>
         <text>Contents</text>
       </navLabel>
-      <content src="Text/TOC.html" />
+      <content src="Text/TOC.html"/>
     </navPoint>
     <navPoint id="navPoint-2" playOrder="2">
       <navLabel>
         <text>The Book of Scripler</text>
       </navLabel>
-      <content src="Text/Chapter.html" />
+      <content src="Text/Chapter.html"/>
       <navPoint id="navPoint-3" playOrder="3">
         <navLabel>
           <text>The Daily Miracle</text>
         </navLabel>
-        <content src="Text/Chapter.html#sigil_toc_id_1" />
+        <content src="Text/Chapter.html#sigil_toc_id_1"/>
         <navPoint id="navPoint-4" playOrder="4">
           <navLabel>
             <text>Precautions Before Beginning</text>
           </navLabel>
-          <content src="Text/Chapter.html#sigil_toc_id_2" />
+          <content src="Text/Chapter.html#sigil_toc_id_2"/>
           <navPoint id="navPoint-5" playOrder="5">
             <navLabel>
               <text>Remember Human Nature</text>
             </navLabel>
-            <content src="Text/Chapter.html#sigil_toc_id_3" />
+            <content src="Text/Chapter.html#sigil_toc_id_3"/>
             <navPoint id="navPoint-6" playOrder="6">
               <navLabel>
                 <text>Serious Reading</text>
               </navLabel>
-              <content src="Text/Chapter.html#sigil_toc_id_4" />
+              <content src="Text/Chapter.html#sigil_toc_id_4"/>
             </navPoint>
           </navPoint>
         </navPoint>
@@ -50,21 +50,21 @@
           <navLabel>
             <text>Dangers To Avoid</text>
           </navLabel>
-          <content src="Text/Chapter.html#sigil_toc_id_5" />
+          <content src="Text/Chapter.html#sigil_toc_id_5"/>
         </navPoint>
       </navPoint>
       <navPoint id="navPoint-8" playOrder="8">
         <navLabel>
           <text>Titlepage</text>
         </navLabel>
-        <content src="Text/Titlepage.html" />
+        <content src="Text/Titlepage.html"/>
       </navPoint>
     </navPoint>
     <navPoint id="navPoint-9" playOrder="9">
       <navLabel>
         <text>The Book of Scripler</text>
       </navLabel>
-      <content src="Text/Titlepage.html#sigil_toc_id_6" />
+      <content src="Text/Titlepage.html#sigil_toc_id_6"/>
     </navPoint>
   </navMap>
 </ncx>

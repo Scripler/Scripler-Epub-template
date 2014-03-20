@@ -203,19 +203,27 @@ blockquote {
 /*Margin-left and right is defined in %, as it then becomes relative to width, which is important for responsive design to e.g. mobile phones.*/
 /*Here margin-top is defined as 1.2em instead of 1.5em - it is an approximation of <p> 1em (or rem)*/
 	margin:1.2em 10% 0em 10%;
+	page-break-inside:avoid;
 }
 
+blockquote p {
+	margin:0em 0em 0em 0em;
+}
 
-code {
+div.code {
+	background:#000000;
+	margin:1.2em 10% 0em 10%;
+	padding:1em;
+}
+
+div.code p {
 	font-family: "Source Code Pro", monospace;
 	font-style:normal;
 	font-weight:700;
 	font-size:1em;
-	background-
+	text-indent:0;
 	color:#ffffff;
-	display:block;
-	margin:1.2em 10% 0em 10%;
-	padding:1em;
+	margin:0;
 }
 
 figure {

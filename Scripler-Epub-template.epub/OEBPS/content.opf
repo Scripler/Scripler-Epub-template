@@ -5,7 +5,7 @@
     <dc:title>Book of Scripler</dc:title>
     <dc:creator opf:role="aut">Scripler Team</dc:creator>
     <dc:language>en</dc:language>
-    <dc:date opf:event="modification">2014-03-17</dc:date>
+    <dc:date opf:event="modification">2014-03-20</dc:date>
     <meta content="0.7.4" name="Sigil version" />
   </metadata>
   <manifest>
@@ -30,7 +30,6 @@
     <item href="Fonts/sourcecodeproextralight.otf" id="sourcecodeproextralight.otf" media-type="application/vnd.ms-opentype" />
     <item href="Fonts/sourcecodeprobold.otf" id="sourcecodeprobold.otf" media-type="application/vnd.ms-opentype" />
     <item href="Fonts/sourcecodeproblack.otf" id="sourcecodeproblack.otf" media-type="application/vnd.ms-opentype" />
-    <item href="Misc/desktop.ini" id="desktop.ini" media-type="text/plain" />
     <item href="Images/billede.png" id="billede.png" media-type="image/png" />
     <item href="Images/builtwithscripler.svg" id="builtwithscripler.svg" media-type="image/svg+xml" />
     <item href="Images/cover.jpg" id="cover.jpg" media-type="image/jpeg" />
