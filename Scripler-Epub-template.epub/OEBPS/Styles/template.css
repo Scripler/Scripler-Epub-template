@@ -126,8 +126,8 @@ h2 {
 	font-size:2em;
 	line-height:1.38;
 	margin:1.5em 0em 0em 0em;
-
 }
+
 
 h3 {
 	font-family: "Source Sans Pro", arial, sans-serif;
@@ -164,15 +164,6 @@ p {
 	line-height: 1.56;
 	margin: 1.5em 0em 0em 0em;
 	
-}
-
-p + p {
-	text-indent: 1.5em;
-	margin: 0em 0em 0em 0em;
-}
-
-p.emptyParagraph + p {
-	text-indent: 0em;
 }
 
 ol {
@@ -213,7 +204,7 @@ blockquote p {
 div.code {
 	background:#000000;
 	margin:1.2em 10% 0em 10%;
-	padding:1em;
+	padding:.7em;
 }
 
 div.code p {
@@ -360,6 +351,26 @@ footer {
 	right: 2em;
 	text-align: right;
 }
+
+/*PARAGRAPH RULES*/
+
+/*This makes first line indents on paragraphs that follows paragraphs. And removes the margin-top.*/
+p + p {
+	text-indent: 1.5em;
+	margin: 0;
+}
+
+/*This removes first line indent from paragraphs that comes after empty paragraphs*/
+p.emptyParagraph + p {
+	text-indent: 0em;
+}
+
+/*When empty paragraphs are added, the should not have margin-top, since they are themselves acting as a sort of margin-top with their emptyness. The line-height is then specified to have the same height as the same removed margin-top.*/
+p.emptyParagraph {
+	line-height:1.5em;
+	margin-top:0;
+}
+
 
 /*a:link { color: #0000ff; text-decoration:underline; }
 a:visited { color: #0000ff; text-decoration:underline; }
