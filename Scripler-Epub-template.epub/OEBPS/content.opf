@@ -36,11 +36,13 @@
     <item href="Images/3_2.jpg" id="x3_2.jpg" media-type="image/jpeg" />
     <item href="Text/TOC.html" id="TOC.html" media-type="application/xhtml+xml" />
     <item href="Text/Titlepage.html" id="Titlepage.html" media-type="application/xhtml+xml" />
+    <item href="Text/Colophon.html" id="Colophon.html" media-type="application/xhtml+xml" />
   </manifest>
   <spine toc="ncx">
     <itemref idref="Titlepage.html" />
     <itemref idref="TOC.html" />
     <itemref idref="Chapter.html" />
+    <itemref idref="Colophon.html" />
   </spine>
   <guide />
 </package>

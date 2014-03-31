@@ -102,8 +102,10 @@ table {
 	src : url("../Fonts/sourcecodeprobold.otf");
 }
 
+/*Line height is calculated based on this Golden Ratio Typography Calculator: www.pearsonified.com/typography/ - using a estimated width of 600px and a baseline where 1em = 16px. This is then re-calculated to unit-less line-height.*/
+
 body {
-/*Margin is added to avoid text being directly on the edge of ebook-readers taking css seriously (which is increasingly few - I'm looking at you apple). But just a litte, to preserve screen estate in most usage scenarios.*/
+/*Margin is added to body to avoid text being directly on the edge of ebook-readers taking css seriously (which is increasingly few - I'm looking at you apple). But just a litte, to preserve screen estate in most usage scenarios.*/
 	margin:0.5em;
 	color:black;
 }
@@ -112,9 +114,8 @@ h1 {
 	font-family: "Source Sans Pro", arial, sans-serif;
 	font-style:normal;
 	font-weight:900;
-	font-size:4em;
-/*Line height is calculated based on this Golden Ratio Typography Calculator: www.pearsonified.com/typography/ - using a estimated width of 600px and a baseline where 1em = 16px. This is then re-calculated to unit-less line-height.*/
-	line-height:1.33;
+	font-size:3em;
+	line-height:1.35;
 	color:#0000ff;
 	margin:1.5em 0em 0em 0em;
 }
@@ -220,6 +221,8 @@ em {
 a {
 	text-decoration:underline;
 	color:#0000ff;
+	line-height:inherit;
+	font-weight:inherit;
 }
 
 	a:link { color: #0000ff; text-decoration:underline; }
@@ -362,19 +365,18 @@ td {
 	text-align:center;
 }
 
-div.logo {
+.logo {
 	width:26%;
 	height:auto;
 	page-break-inside: avoid;
-	margin: 0 0 0 37%;
+	margin: 0 37% 0 37%;
 }
 
 /*Colophon*/
 
 footer {
+	position: absolute;
 	bottom: 2em;
-	left: 0;
-	position: fixed;
 	right: 2em;
 	text-align: right;
 }
@@ -402,4 +404,7 @@ p.toc + p.toc {
 	text-indent:0;
 }
 
-
+div.colophon p, div.colophon h4 {
+	text-indent:0;
+	text-align:right;
+} 
