@@ -24,7 +24,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-
 blockquote, q {
 	quotes: none;
 }
@@ -38,7 +37,8 @@ table {
 	border-spacing: 0;
 }
 
-/*font-family should always be named with the full name of the font, to avoid confusion.*/
+/*font-family should always be named with the full name of the font, to avoid confusion. Weight is given used those numbers*/
+
 @font-face {
 	font-family:"Source Sans Pro";
 	font-style:normal;
@@ -110,6 +110,7 @@ body {
 	color:black;
 }
 
+/*Name: Heading 1*/
 h1 {
 	font-family: "Source Sans Pro", arial, sans-serif;
 	font-style:normal;
@@ -120,6 +121,7 @@ h1 {
 	margin:1.5em 0em 0em 0em;
 }
 
+/*Name: Heading 2*/
 h2 {
 	font-family: "Source Sans Pro", arial, sans-serif;
 	font-style:normal;
@@ -129,7 +131,7 @@ h2 {
 	margin:1.5em 0em 0em 0em;
 }
 
-
+/*Name: Heading 3*/
 h3 {
 	font-family: "Source Sans Pro", arial, sans-serif;
 	font-style:normal;
@@ -139,6 +141,7 @@ h3 {
 	margin:1.5em 0em 0em 0em;
 }
 
+/*Name: Heading 4*/
 h4 {
 	font-family: "Source Sans Pro", arial, sans-serif;
 	font-style:normal;
@@ -148,6 +151,7 @@ h4 {
 	margin:1.5em 0em 0em 0em;
 }
 
+/*Name: Heading 5*/
 h5 {
 	font-family: "Source Sans Pro", arial, sans-serif;
 	font-style:normal;
@@ -157,6 +161,7 @@ h5 {
 	margin:1.5em 0em 0em 0em;
 }
 
+/*Name: Heading 6*/
 h6 {
 	font-family: "Source Sans Pro", arial, sans-serif;
 	font-style:normal;
@@ -192,6 +197,7 @@ h6 + h6 {
 	margin:0;
 }
 
+/*Name: Paragraph*/
 p {
 	font-family: "Source Sans Pro", arial, sans-serif;
 	font-style:normal;
@@ -218,6 +224,7 @@ em {
 	font-style: italic;
 }
 
+/*Name: Link*/
 a {
 	text-decoration:underline;
 	color:#0000ff;
@@ -231,6 +238,8 @@ a {
 	a:hover { color: #000000; text-decoration:underline; }
 	a:active { color: #000000; text-decoration:underline; }
 
+
+/*Name: Quote*/
 blockquote {
 	font-family: "Source Sans Pro", arial, sans-serif;
 	font-style:italic;
@@ -246,10 +255,12 @@ blockquote {
 	page-break-inside:avoid;
 }
 
+
 blockquote p {
 	margin:0;
 }
 
+/*Name: Code*/
 div.code {
 	background:#000000;
 	margin:1.2em 10% 0em 10%;
@@ -283,6 +294,8 @@ img {
 	page-break-inside:avoid;
 }
 
+
+/*Name: Caption*/
 figcaption {
 	font-family: "Source Sans Pro", arial, sans-serif;
 	font-style:italic;
@@ -303,8 +316,7 @@ figcaption {
 }*/
 
 
-/*Table*/
-
+/*Name: Table*/
 table {
 	table-layout: auto;
 	border-collapse: collapse;
@@ -337,7 +349,7 @@ td {
 	padding: .5em;
 }
 
-/*TOC*/
+/*Name: Table of contents*/
 
 .toc {
 	font-size: 1.2em;
@@ -348,6 +360,7 @@ td {
 
 /*Titlepage*/
 
+/*Name: Author*/
 .titlepageAuthor {
 	font-size:1em;
 	line-height: 1.3;
@@ -356,6 +369,7 @@ td {
 	text-align:center;
 }
 
+/*Name: Title*/
 .titlepageTitle {
 	font-size:3em;
 	line-height: 1.5;
@@ -370,15 +384,6 @@ td {
 	height:auto;
 	page-break-inside: avoid;
 	margin: 0 37% 0 37%;
-}
-
-/*Colophon*/
-
-footer {
-	position: absolute;
-	bottom: 2em;
-	right: 2em;
-	text-align: right;
 }
 
 /*PARAGRAPH RULES*/
@@ -404,6 +409,7 @@ p.toc + p.toc {
 	text-indent:0;
 }
 
+/*Name: Colophon*/
 div.colophon p, div.colophon h4 {
 	text-indent:0;
 	text-align:right;

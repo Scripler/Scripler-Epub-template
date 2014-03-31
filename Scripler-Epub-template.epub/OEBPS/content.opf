@@ -23,13 +23,7 @@
     <item href="Fonts/sourcesansprobolditalic.otf" id="sourcesansprobolditalic.otf" media-type="application/vnd.ms-opentype" />
     <item href="Fonts/sourcesansprobold.otf" id="sourcesansprobold.otf" media-type="application/vnd.ms-opentype" />
     <item href="Fonts/sourcesansproblackitalic.otf" id="sourcesansproblackitalic.otf" media-type="application/vnd.ms-opentype" />
-    <item href="Fonts/sourcesansproblack.otf" id="sourcesansproblack.otf" media-type="application/vnd.ms-opentype" />
-    <item href="Fonts/sourcecodeprosemibold.otf" id="sourcecodeprosemibold.otf" media-type="application/vnd.ms-opentype" />
-    <item href="Fonts/sourcecodeproregular.otf" id="sourcecodeproregular.otf" media-type="application/vnd.ms-opentype" />
-    <item href="Fonts/sourcecodeprolight.otf" id="sourcecodeprolight.otf" media-type="application/vnd.ms-opentype" />
-    <item href="Fonts/sourcecodeproextralight.otf" id="sourcecodeproextralight.otf" media-type="application/vnd.ms-opentype" />
     <item href="Fonts/sourcecodeprobold.otf" id="sourcecodeprobold.otf" media-type="application/vnd.ms-opentype" />
-    <item href="Fonts/sourcecodeproblack.otf" id="sourcecodeproblack.otf" media-type="application/vnd.ms-opentype" />
     <item href="Images/billede.png" id="billede.png" media-type="image/png" />
     <item href="Images/builtwithscripler.svg" id="builtwithscripler.svg" media-type="image/svg+xml" />
     <item href="Images/cover.jpg" id="cover.jpg" media-type="image/jpeg" />
@@ -37,6 +31,7 @@
     <item href="Text/TOC.html" id="TOC.html" media-type="application/xhtml+xml" />
     <item href="Text/Titlepage.html" id="Titlepage.html" media-type="application/xhtml+xml" />
     <item href="Text/Colophon.html" id="Colophon.html" media-type="application/xhtml+xml" />
+    <item href="Fonts/sourcesansproblack.otf" id="sourcesansproblack.otf" media-type="application/vnd.ms-opentype" />
   </manifest>
   <spine toc="ncx">
     <itemref idref="Titlepage.html" />
