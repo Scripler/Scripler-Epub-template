@@ -5,7 +5,7 @@
     <dc:title>Book of Scripler</dc:title>
     <dc:creator opf:role="aut">Scripler Team</dc:creator>
     <dc:language>en</dc:language>
-    <dc:date opf:event="modification">2014-03-31</dc:date>
+    <dc:date opf:event="modification">2014-04-03</dc:date>
     <meta content="0.7.4" name="Sigil version" />
   </metadata>
   <manifest>
@@ -24,7 +24,6 @@
     <item href="Fonts/sourcesansprobold.otf" id="sourcesansprobold.otf" media-type="application/vnd.ms-opentype" />
     <item href="Fonts/sourcesansproblackitalic.otf" id="sourcesansproblackitalic.otf" media-type="application/vnd.ms-opentype" />
     <item href="Fonts/sourcecodeprobold.otf" id="sourcecodeprobold.otf" media-type="application/vnd.ms-opentype" />
-    <item href="Images/billede.png" id="billede.png" media-type="image/png" />
     <item href="Images/builtwithscripler.svg" id="builtwithscripler.svg" media-type="image/svg+xml" />
     <item href="Images/cover.jpg" id="cover.jpg" media-type="image/jpeg" />
     <item href="Images/3_2.jpg" id="x3_2.jpg" media-type="image/jpeg" />
@@ -32,8 +31,10 @@
     <item href="Text/Titlepage.html" id="Titlepage.html" media-type="application/xhtml+xml" />
     <item href="Text/Colophon.html" id="Colophon.html" media-type="application/xhtml+xml" />
     <item href="Fonts/sourcesansproblack.otf" id="sourcesansproblack.otf" media-type="application/vnd.ms-opentype" />
+    <item href="Text/Cover.html" id="Cover.html" media-type="application/xhtml+xml" />
   </manifest>
   <spine toc="ncx">
+    <itemref idref="Cover.html" />
     <itemref idref="Titlepage.html" />
     <itemref idref="TOC.html" />
     <itemref idref="Chapter.html" />
