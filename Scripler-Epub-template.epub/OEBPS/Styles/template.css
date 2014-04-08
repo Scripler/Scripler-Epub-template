@@ -338,6 +338,13 @@ td {
 	
 }
 
+/*Name: Colophon*/
+p.colophon {
+	font-size:.9em;
+	text-indent:0;
+	text-align:right;
+}
+
 
 
 /*INSERT ELEMENTS*/
@@ -374,18 +381,6 @@ table {
 /*Already in figure:
 	page-break-inside:avoid;*/
 }
-
-
-
-
-/*Insert: Table of contents*/
-
-
-/*Insert: Colophon*/
-div.colophon p, div.colophon h4 {
-	text-indent:0;
-	text-align:right;
-} 
 
 
 /*NON-EDITABLE CSS*/
@@ -483,4 +478,8 @@ p.toc + p.toc {
 /*/*This removes margin-top from code-paragraphs that comes after code-paragraphs*/
 .code + .code {
 	margin-top:0;
+}
+
+.right {
+	text-align:right;
 }
