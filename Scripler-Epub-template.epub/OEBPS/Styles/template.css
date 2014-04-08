@@ -1,5 +1,4 @@
-/*NON-EDITABLE CSS*/
-
+/*CSS RESET*/
 /*CSS reset - resets some default properties*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, 
@@ -27,62 +26,11 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 
-body {
-	margin:0.5em;
-/*Margin is added to body to avoid text being directly on the edge of ebook-readers taking css seriously (which is increasingly few - I'm looking at you apple). But just a litte, to preserve screen estate in most usage scenarios. But it might conflict with e.g. wanting to define a backgroundcolor edge to edge ...*/
-}
 
-/*HEADING BEHAVIOUR - Makes Several lines of headings look nice.*/
 
-h1 + h1 {
-	margin:0;
-}
-
-h2 + h2 {
-	margin:0;
-}
-
-h3 + h3 {
-	margin:0;
-}
-
-h4 + h4 {
-	margin:0;
-}
-
-h5 + h5 {
-	margin:0;
-}
-
-h6 + h6 {
-	margin:0;
-}
-
-strong {
-	font-weight: 700;
-}
-
-em {
-	font-style: italic;
-}
-
-figure {
-	margin: 1.5em 0 0 0;
-	page-break-inside:avoid;
-}
-/*Epub2-fallback css*/
-/*div.figure {
-	margin: 1em 0em;
-	page-break-inside:avoid;
-}*/
 
 /*EDITABLE CSS*/
-
 
 /*FONTS*/
 /*font-family should always be named with the full name of the font, to avoid confusion. Weight is given like this:
@@ -386,6 +334,7 @@ img {
 table {
 	table-layout: auto;
 	border-collapse: collapse;
+	border-spacing: 0;
 	margin:0 auto 0 auto;
 	padding:0.5em;
 /*Already in figure:
@@ -422,10 +371,62 @@ td {
 	font-weight: 700;
 }
 
+/*Insert: Colophon*/
+div.colophon p, div.colophon h4 {
+	text-indent:0;
+	text-align:right;
+} 
 
 
+/*NON-EDITABLE CSS*/
+body {
+	margin:0.5em;
+/*Margin is added to body to avoid text being directly on the edge of ebook-readers taking css seriously (which is increasingly few - I'm looking at you apple). But just a litte, to preserve screen estate in most usage scenarios. But it might conflict with e.g. wanting to define a backgroundcolor edge to edge ...*/
+}
 
+/*HEADING BEHAVIOUR - Makes Several lines of headings look nice.*/
 
+h1 + h1 {
+	margin:0;
+}
+
+h2 + h2 {
+	margin:0;
+}
+
+h3 + h3 {
+	margin:0;
+}
+
+h4 + h4 {
+	margin:0;
+}
+
+h5 + h5 {
+	margin:0;
+}
+
+h6 + h6 {
+	margin:0;
+}
+
+strong {
+	font-weight: 700;
+}
+
+em {
+	font-style: italic;
+}
+
+figure {
+	margin: 1.5em 0 0 0;
+	page-break-inside:avoid;
+}
+/*Epub2-fallback css*/
+/*div.figure {
+	margin: 1em 0em;
+	page-break-inside:avoid;
+}*/
 
 
 .logo {
@@ -458,8 +459,3 @@ p.toc + p.toc {
 	text-indent:0;
 }
 
-/*Name: Colophon*/
-div.colophon p, div.colophon h4 {
-	text-indent:0;
-	text-align:right;
-} 
