@@ -5,7 +5,7 @@
     <dc:title>Book of Scripler</dc:title>
     <dc:creator opf:role="aut">Scripler Team</dc:creator>
     <dc:language>en</dc:language>
-    <dc:date opf:event="modification">2014-05-06</dc:date>
+    <dc:date opf:event="modification">2014-05-22</dc:date>
     <meta content="0.7.4" name="Sigil version" />
   </metadata>
   <manifest>
