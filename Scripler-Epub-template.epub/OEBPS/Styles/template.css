@@ -300,6 +300,9 @@ p {
 	line-height: 1.56;
 	color:#000000;
 	margin: 1.5em 0em 0em 0em;
+	hyphens: none;
+	-moz-hyphens: none;
+	-webkit-hyphens: none;
 }
 
 /*Name: Quote*/
@@ -334,6 +337,12 @@ a {
 	line-height:inherit;
 	font-weight:inherit;
 }
+
+/*Insert: Link*/
+/*	a:link { color: #0000ff; text-decoration:underline;}
+	a:visited { color: #0000ff; text-decoration:underline;}
+	a:hover { color: #000000; text-decoration:underline;}
+	a:active { color: #000000; text-decoration:underline;}*/
 
 /*Name: Code*/
 .code {
@@ -391,6 +400,17 @@ figcaption {
 	text-indent:0;
 }
 
+/*Insert: Table*/
+table {
+	table-layout: auto;
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin:0 auto 0 auto;
+	padding:0.5em;
+/*Already in figure:
+	page-break-inside:avoid;*/
+}
+
 /*Name: Table heading*/
 th {
 	font-family: "Source Sans Pro", arial, sans-serif;
@@ -436,14 +456,9 @@ p.colophon {
 
 
 
-/*INSERT ELEMENTS*/
 
-/*Insert: Link*/
-	a:link { color: #0000ff; text-decoration:underline; }
-	a:visited { color: #0000ff; text-decoration:underline; }
-	/*I think for templates the disappearing link is asking for trouble :)*/
-	a:hover { color: #000000; text-decoration:underline; }
-	a:active { color: #000000; text-decoration:underline; }
+
+
 
 /*Insert: List*/
 ol {
@@ -469,15 +484,6 @@ img {
 	page-break-inside:avoid;
 }
 
-/*Insert: Table*/
-table {
-	table-layout: auto;
-	border-collapse: collapse;
-	border-spacing: 0;
-	margin:0 auto 0 auto;
-	padding:0.5em;
-/*Already in figure:
-	page-break-inside:avoid;*/
-}
+
 
 
